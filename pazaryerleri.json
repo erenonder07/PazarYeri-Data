@@ -5,19 +5,65 @@
     "renk": "#ff6000",
     "kargo": 45.00,
     "kategoriler": [
-      { "ad": "Giyim & Aksesuar", "oran": 0.215 },
-      { "ad": "Ayakkabı & Çanta", "oran": 0.22 },
-      { "ad": "Elektronik (Genel)", "oran": 0.16 },
-      { "ad": "Cep Telefonu", "oran": 0.08 },
-      { "ad": "Bilgisayar & Tablet", "oran": 0.09 },
-      { "ad": "Ev & Yaşam", "oran": 0.18 },
-      { "ad": "Kozmetik & Kişisel Bakım", "oran": 0.17 },
-      { "ad": "Spor & Outdoor", "oran": 0.15 },
-      { "ad": "Anne & Bebek", "oran": 0.165 },
-      { "ad": "Süpermarket", "oran": 0.14 },
-      { "ad": "Kırtasiye & Ofis", "oran": 0.15 },
-      { "ad": "Hobi & Eğlence", "oran": 0.17 },
-      { "ad": "Otomotiv Aksesuar", "oran": 0.16 }
+      {
+        "baslik": "Giyim (Kadın & Erkek)",
+        "altlar": [
+          { "ad": "Elbise", "oran": 0.21 },
+          { "ad": "Tişört / Sweatshirt", "oran": 0.22 },
+          { "ad": "Gömlek / Bluz", "oran": 0.21 },
+          { "ad": "Pantolon / Jeans", "oran": 0.21 },
+          { "ad": "Ceket / Mont", "oran": 0.22 },
+          { "ad": "İç Giyim", "oran": 0.20 },
+          { "ad": "Spor Giyim", "oran": 0.15 }
+        ]
+      },
+      {
+        "baslik": "Ayakkabı & Çanta",
+        "altlar": [
+          { "ad": "Spor Ayakkabı", "oran": 0.21 },
+          { "ad": "Topuklu Ayakkabı", "oran": 0.23 },
+          { "ad": "Bot / Çizme", "oran": 0.23 },
+          { "ad": "Sırt Çantası", "oran": 0.22 },
+          { "ad": "Cüzdan / Kartlık", "oran": 0.20 }
+        ]
+      },
+      {
+        "baslik": "Aksesuar & Saat",
+        "altlar": [
+          { "ad": "Takı (Bijuteri)", "oran": 0.22 },
+          { "ad": "Güneş Gözlüğü", "oran": 0.21 },
+          { "ad": "Kol Saati", "oran": 0.21 },
+          { "ad": "Altın / Mücevher", "oran": 0.05 }
+        ]
+      },
+      {
+        "baslik": "Elektronik",
+        "altlar": [
+          { "ad": "Cep Telefonu", "oran": 0.08 },
+          { "ad": "Bilgisayar / Tablet", "oran": 0.09 },
+          { "ad": "Kulaklık / Hoparlör", "oran": 0.14 },
+          { "ad": "Küçük Ev Aletleri", "oran": 0.13 },
+          { "ad": "TV / Görüntü Ses", "oran": 0.10 }
+        ]
+      },
+      {
+        "baslik": "Ev & Yaşam",
+        "altlar": [
+          { "ad": "Mobilya", "oran": 0.20 },
+          { "ad": "Ev Tekstili (Nevresim vb.)", "oran": 0.18 },
+          { "ad": "Mutfak Gereçleri", "oran": 0.18 },
+          { "ad": "Aydınlatma", "oran": 0.18 }
+        ]
+      },
+      {
+        "baslik": "Kozmetik & Bakım",
+        "altlar": [
+          { "ad": "Parfüm", "oran": 0.17 },
+          { "ad": "Makyaj Ürünleri", "oran": 0.17 },
+          { "ad": "Cilt Bakımı", "oran": 0.17 },
+          { "ad": "Kişisel Bakım Cihazları", "oran": 0.13 }
+        ]
+      }
     ]
   },
   {
@@ -26,70 +72,35 @@
     "renk": "#FF7600",
     "kargo": 39.90,
     "kategoriler": [
-      { "ad": "Giyim & Moda", "oran": 0.18 },
-      { "ad": "Aksesuar & Takı", "oran": 0.18 },
-      { "ad": "Bilgisayar & Elektronik", "oran": 0.08 },
-      { "ad": "Cep Telefonu", "oran": 0.07 },
-      { "ad": "Beyaz Eşya", "oran": 0.10 },
-      { "ad": "Mobilya", "oran": 0.18 },
-      { "ad": "Züccaciye & Mutfak", "oran": 0.18 },
-      { "ad": "Oyuncak", "oran": 0.16 },
-      { "ad": "Pet Shop", "oran": 0.14 },
-      { "ad": "Yapı Market", "oran": 0.15 },
-      { "ad": "Kitap & Film & Müzik", "oran": 0.12 }
+      {
+        "baslik": "Elektronik",
+        "altlar": [
+          { "ad": "Telefon", "oran": 0.07 },
+          { "ad": "Bilgisayar", "oran": 0.08 }
+        ]
+      },
+      {
+        "baslik": "Moda & Giyim",
+        "altlar": [
+          { "ad": "Genel Giyim", "oran": 0.20 },
+          { "ad": "Ayakkabı", "oran": 0.20 }
+        ]
+      }
     ]
   },
-  {
-    "id": 3,
-    "isim": "Amazon TR",
-    "renk": "#232f3e",
-    "kargo": 35.00,
-    "kategoriler": [
-      { "ad": "Moda & Giyim", "oran": 0.15 },
-      { "ad": "Elektronik & Bilgisayar", "oran": 0.09 },
-      { "ad": "Telefon Aksesuarları", "oran": 0.13 },
-      { "ad": "Ev & Mutfak", "oran": 0.15 },
-      { "ad": "Kişisel Bakım", "oran": 0.135 },
-      { "ad": "Bebek Ürünleri", "oran": 0.115 },
-      { "ad": "Kitap", "oran": 0.102 },
-      { "ad": "Oyuncak & Oyun", "oran": 0.12 },
-      { "ad": "Spor", "oran": 0.10 },
-      { "ad": "Otomotiv", "oran": 0.12 }
-    ]
-  },
-  {
+   {
     "id": 4,
     "isim": "N11",
     "renk": "#5f33ba",
     "kargo": 42.50,
     "kategoriler": [
-      { "ad": "Giyim", "oran": 0.2034 },
-      { "ad": "Ayakkabı & Çanta", "oran": 0.18 },
-      { "ad": "Elektronik", "oran": 0.08 },
-      { "ad": "Telefon & Aksesuar", "oran": 0.09 },
-      { "ad": "Kozmetik", "oran": 0.15 },
-      { "ad": "Otomotiv & Yedek Parça", "oran": 0.14 },
-      { "ad": "Anne & Bebek", "oran": 0.18 },
-      { "ad": "Mücevher & Altın", "oran": 0.05 },
-      { "ad": "Kitap & Kırtasiye", "oran": 0.15 },
-      { "ad": "Spor & Outdoor", "oran": 0.15 }
-    ]
-  },
-  {
-    "id": 5,
-    "isim": "Çiçeksepeti",
-    "renk": "#0047ba",
-    "kargo": 45.00,
-    "kategoriler": [
-      { "ad": "Çiçek (Butik)", "oran": 0.30 },
-      { "ad": "Yenilebilir Çiçek (BonnyFood)", "oran": 0.25 },
-      { "ad": "Hediye & Takı", "oran": 0.22 },
-      { "ad": "Moda & Aksesuar", "oran": 0.22 },
-      { "ad": "Elektronik", "oran": 0.13 },
-      { "ad": "Parfüm & Kozmetik", "oran": 0.18 },
-      { "ad": "Ev & Yaşam", "oran": 0.20 },
-      { "ad": "Oyuncak", "oran": 0.18 },
-      { "ad": "Kırtasiye", "oran": 0.16 }
+      {
+        "baslik": "Genel Kategoriler",
+        "altlar": [
+          { "ad": "Giyim", "oran": 0.203 },
+           { "ad": "Elektronik", "oran": 0.08 }
+        ]
+      }
     ]
   }
 ]
