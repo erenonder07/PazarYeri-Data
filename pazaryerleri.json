@@ -6,62 +6,246 @@
     "kargo": 45.00,
     "kategoriler": [
       {
-        "baslik": "Giyim (Kadın & Erkek)",
+        "baslik": "Bebek Giyim & İhtiyaç",
+        "altlar": [
+          { "ad": "Bebek Takımları", "oran": 0.17 },
+          { "ad": "Bebek Ayakkabısı", "oran": 0.18 },
+          { "ad": "Hastane Çıkışı", "oran": 0.17 },
+          { "ad": "Yenidoğan Kıyafetleri", "oran": 0.17 },
+          { "ad": "Tulum", "oran": 0.17 },
+          { "ad": "Body & Zıbın", "oran": 0.17 },
+          { "ad": "Bebek Tişört & Atlet", "oran": 0.17 },
+          { "ad": "Bebek Elbise", "oran": 0.17 },
+          { "ad": "Bebek Şort", "oran": 0.17 },
+          { "ad": "Bebek Patiği", "oran": 0.18 },
+          { "ad": "Bebek Hırka", "oran": 0.17 },
+          { "ad": "Battaniye", "oran": 0.18 },
+          { "ad": "Alt Üst Takım", "oran": 0.17 },
+          { "ad": "Bebek Etek", "oran": 0.17 },
+          { "ad": "Bebek Çorap", "oran": 0.16 },
+          { "ad": "Bebek Şapka", "oran": 0.17 },
+          { "ad": "Bebek Eldiven", "oran": 0.17 },
+          { "ad": "Bebek Eşofman", "oran": 0.17 },
+          { "ad": "Bebek Bere", "oran": 0.17 }
+        ]
+      },
+      {
+        "baslik": "Kız Çocuk Giyim",
         "altlar": [
           { "ad": "Elbise", "oran": 0.21 },
-          { "ad": "Tişört / Sweatshirt", "oran": 0.22 },
-          { "ad": "Gömlek / Bluz", "oran": 0.21 },
-          { "ad": "Pantolon / Jeans", "oran": 0.21 },
-          { "ad": "Ceket / Mont", "oran": 0.22 },
-          { "ad": "İç Giyim", "oran": 0.20 },
-          { "ad": "Spor Giyim", "oran": 0.15 }
-        ]
-      },
-      {
-        "baslik": "Ayakkabı & Çanta",
-        "altlar": [
+          { "ad": "Sweatshirt", "oran": 0.21 },
           { "ad": "Spor Ayakkabı", "oran": 0.21 },
+          { "ad": "Eşofman", "oran": 0.21 },
+          { "ad": "İç Giyim & Pijama", "oran": 0.20 },
+          { "ad": "Tişört & Atlet", "oran": 0.21 },
+          { "ad": "Tayt", "oran": 0.21 },
+          { "ad": "Günlük Ayakkabı", "oran": 0.21 },
+          { "ad": "Şort", "oran": 0.21 },
+          { "ad": "Mont", "oran": 0.22 },
+          { "ad": "Çocuk Oyun Evi", "oran": 0.16 },
+          { "ad": "Oyuncak Bebek", "oran": 0.16 },
+          { "ad": "Oyuncak Mutfak", "oran": 0.16 },
+          { "ad": "Kaban", "oran": 0.22 },
+          { "ad": "Abiye & Elbise", "oran": 0.21 },
+          { "ad": "Ceket", "oran": 0.22 },
+          { "ad": "Pantolon", "oran": 0.21 },
+          { "ad": "Kazak", "oran": 0.21 },
+          { "ad": "Bot", "oran": 0.23 },
+          { "ad": "Şapka & Bere & Eldiven", "oran": 0.21 }
+        ]
+      },
+      {
+        "baslik": "Erkek Çocuk Giyim",
+        "altlar": [
+          { "ad": "Sweatshirt", "oran": 0.21 },
+          { "ad": "Spor Ayakkabı", "oran": 0.21 },
+          { "ad": "Eşofman", "oran": 0.21 },
+          { "ad": "İç Giyim & Pijama", "oran": 0.20 },
+          { "ad": "Tişört & Atlet", "oran": 0.21 },
+          { "ad": "Günlük Ayakkabı", "oran": 0.21 },
+          { "ad": "Okul Çantası", "oran": 0.22 },
+          { "ad": "Şort", "oran": 0.21 },
+          { "ad": "Gömlek", "oran": 0.21 },
+          { "ad": "Mont", "oran": 0.22 },
+          { "ad": "Oyuncak Traktör", "oran": 0.16 },
+          { "ad": "Akülü Araba", "oran": 0.15 },
+          { "ad": "Kumandalı Araba", "oran": 0.16 },
+          { "ad": "Bisiklet", "oran": 0.12 },
+          { "ad": "Boxer", "oran": 0.20 },
+          { "ad": "İçlik", "oran": 0.20 },
+          { "ad": "Bot", "oran": 0.23 },
+          { "ad": "Krampon", "oran": 0.21 },
+          { "ad": "Şapka & Bere & Eldiven", "oran": 0.21 },
+          { "ad": "Takım Elbise", "oran": 0.22 }
+        ]
+      },
+      {
+        "baslik": "Bebek Bakım & Sağlık",
+        "altlar": [
+          { "ad": "Bebek Bezi", "oran": 0.12 },
+          { "ad": "Bebek Şampuanı", "oran": 0.16 },
+          { "ad": "Krem & Yağlar", "oran": 0.16 },
+          { "ad": "Bebek Çantası", "oran": 0.18 },
+          { "ad": "Bebek Sabunları", "oran": 0.16 },
+          { "ad": "Bebek Deterjanları", "oran": 0.14 },
+          { "ad": "Bebek Vücut Kremi", "oran": 0.16 },
+          { "ad": "Islak Mendil", "oran": 0.12 },
+          { "ad": "Bebek Tarağı", "oran": 0.18 },
+          { "ad": "Bebek Yağı", "oran": 0.16 },
+          { "ad": "Bebek Buhar Makinesi", "oran": 0.13 },
+          { "ad": "Bebek Ateş Ölçer", "oran": 0.13 }
+        ]
+      },
+      {
+        "baslik": "Oyuncak & Eğlence",
+        "altlar": [
+          { "ad": "Eğitici Oyuncaklar", "oran": 0.16 },
+          { "ad": "Oyuncak Araba", "oran": 0.16 },
+          { "ad": "Oyuncak Bebek (Genel)", "oran": 0.16 },
+          { "ad": "Bebek & Okul Öncesi", "oran": 0.16 },
+          { "ad": "Kumandalı Oyuncak", "oran": 0.16 },
+          { "ad": "Robot Oyuncak", "oran": 0.16 },
+          { "ad": "Çocuk Çizim Tableti", "oran": 0.15 }
+        ]
+      },
+      {
+        "baslik": "Giyim (Genel - Yetişkin)",
+        "altlar": [
+          { "ad": "Elbise", "oran": 0.21 },
+          { "ad": "Tişört", "oran": 0.21 },
+          { "ad": "Gömlek", "oran": 0.21 },
+          { "ad": "Kot Pantolon", "oran": 0.21 },
+          { "ad": "Kot Ceket", "oran": 0.22 },
+          { "ad": "Pantolon", "oran": 0.21 },
+          { "ad": "Mont", "oran": 0.22 },
+          { "ad": "Bluz", "oran": 0.21 },
+          { "ad": "Ceket", "oran": 0.22 },
+          { "ad": "Etek", "oran": 0.21 },
+          { "ad": "Kazak", "oran": 0.21 },
+          { "ad": "Tesettür", "oran": 0.21 },
+          { "ad": "Büyük Beden", "oran": 0.21 },
+          { "ad": "Trençkot", "oran": 0.22 },
+          { "ad": "Yağmurluk & Rüzgarlık", "oran": 0.22 },
+          { "ad": "Sweatshirt", "oran": 0.21 },
+          { "ad": "Kaban", "oran": 0.22 },
+          { "ad": "Hırka", "oran": 0.21 },
+          { "ad": "Palto", "oran": 0.22 },
+          { "ad": "Şort", "oran": 0.21 },
+          { "ad": "Eşofman", "oran": 0.21 },
+          { "ad": "Yelek", "oran": 0.21 },
+          { "ad": "Takım Elbise", "oran": 0.22 },
+          { "ad": "Deri Mont", "oran": 0.22 },
+          { "ad": "Blazer", "oran": 0.22 },
+          { "ad": "Polar", "oran": 0.21 },
+          { "ad": "Büyük Beden Sweatshirt", "oran": 0.21 },
+          { "ad": "Büyük Beden T-shirt", "oran": 0.21 },
+          { "ad": "Büyük Beden Gömlek", "oran": 0.21 },
+          { "ad": "Büyük Beden Pantolon", "oran": 0.21 },
+          { "ad": "Büyük Beden Mont", "oran": 0.22 },
+          { "ad": "Büyük Beden Kazak", "oran": 0.21 },
+          { "ad": "Büyük Beden Hırka", "oran": 0.21 },
+          { "ad": "Büyük Beden Kaban", "oran": 0.22 },
+          { "ad": "Büyük Beden Eşofman", "oran": 0.21 }
+        ]
+      },
+      {
+        "baslik": "Ev & İç Giyim (Yetişkin)",
+        "altlar": [
+          { "ad": "Pijama Takımı", "oran": 0.20 },
+          { "ad": "Pijama", "oran": 0.20 },
+          { "ad": "Gecelik", "oran": 0.20 },
+          { "ad": "Sütyen", "oran": 0.20 },
+          { "ad": "İç Çamaşırı Takımları", "oran": 0.20 },
+          { "ad": "Boxer", "oran": 0.20 },
+          { "ad": "Külot", "oran": 0.20 },
+          { "ad": "Atlet", "oran": 0.20 },
+          { "ad": "İçlik", "oran": 0.20 },
+          { "ad": "Çorap", "oran": 0.20 },
+          { "ad": "Fantezi Giyim", "oran": 0.20 },
+          { "ad": "Korse", "oran": 0.20 },
+          { "ad": "Büstiyer", "oran": 0.20 },
+          { "ad": "Bralet", "oran": 0.20 },
+          { "ad": "Atlet & Body", "oran": 0.20 },
+          { "ad": "Kombinezon", "oran": 0.20 },
+          { "ad": "Jartiyer", "oran": 0.20 }
+        ]
+      },
+      {
+        "baslik": "Ayakkabı (Yetişkin)",
+        "altlar": [
           { "ad": "Topuklu Ayakkabı", "oran": 0.23 },
-          { "ad": "Bot / Çizme", "oran": 0.23 },
-          { "ad": "Sırt Çantası", "oran": 0.22 },
-          { "ad": "Cüzdan / Kartlık", "oran": 0.20 }
+          { "ad": "Sneaker", "oran": 0.23 },
+          { "ad": "Günlük Ayakkabı", "oran": 0.23 },
+          { "ad": "Babet", "oran": 0.23 },
+          { "ad": "Sandalet", "oran": 0.21 },
+          { "ad": "Bot", "oran": 0.23 },
+          { "ad": "Çizme", "oran": 0.23 },
+          { "ad": "Kar Botu", "oran": 0.23 },
+          { "ad": "Loafer", "oran": 0.23 }
         ]
       },
       {
-        "baslik": "Aksesuar & Saat",
+        "baslik": "Aksesuar & Çanta",
         "altlar": [
-          { "ad": "Takı (Bijuteri)", "oran": 0.22 },
-          { "ad": "Güneş Gözlüğü", "oran": 0.21 },
-          { "ad": "Kol Saati", "oran": 0.21 },
-          { "ad": "Altın / Mücevher", "oran": 0.05 }
+          { "ad": "Çanta (Genel)", "oran": 0.22 },
+          { "ad": "Saat", "oran": 0.21 },
+          { "ad": "Takı", "oran": 0.22 },
+          { "ad": "Cüzdan", "oran": 0.20 },
+          { "ad": "Atkı", "oran": 0.21 },
+          { "ad": "Bere", "oran": 0.21 },
+          { "ad": "Eldiven", "oran": 0.21 },
+          { "ad": "Kemer", "oran": 0.21 },
+          { "ad": "Şal", "oran": 0.21 }
         ]
       },
       {
-        "baslik": "Elektronik",
-        "altlar": [
-          { "ad": "Cep Telefonu", "oran": 0.08 },
-          { "ad": "Bilgisayar / Tablet", "oran": 0.09 },
-          { "ad": "Kulaklık / Hoparlör", "oran": 0.14 },
-          { "ad": "Küçük Ev Aletleri", "oran": 0.13 },
-          { "ad": "TV / Görüntü Ses", "oran": 0.10 }
-        ]
-      },
-      {
-        "baslik": "Ev & Yaşam",
-        "altlar": [
-          { "ad": "Mobilya", "oran": 0.20 },
-          { "ad": "Ev Tekstili (Nevresim vb.)", "oran": 0.18 },
-          { "ad": "Mutfak Gereçleri", "oran": 0.18 },
-          { "ad": "Aydınlatma", "oran": 0.18 }
-        ]
-      },
-      {
-        "baslik": "Kozmetik & Bakım",
+        "baslik": "Kozmetik",
         "altlar": [
           { "ad": "Parfüm", "oran": 0.17 },
-          { "ad": "Makyaj Ürünleri", "oran": 0.17 },
-          { "ad": "Cilt Bakımı", "oran": 0.17 },
-          { "ad": "Kişisel Bakım Cihazları", "oran": 0.13 }
+          { "ad": "Göz Makyajı", "oran": 0.17 },
+          { "ad": "Cilt Bakım", "oran": 0.17 },
+          { "ad": "Saç Bakımı", "oran": 0.17 },
+          { "ad": "Makyaj", "oran": 0.17 },
+          { "ad": "Ağız Bakım", "oran": 0.17 },
+          { "ad": "Cinsel Sağlık", "oran": 0.17 },
+          { "ad": "Vücut Bakım", "oran": 0.17 },
+          { "ad": "Hijyenik Ped", "oran": 0.14 },
+          { "ad": "Duş Jeli & Kremleri", "oran": 0.17 },
+          { "ad": "Epilasyon Ürünleri", "oran": 0.13 },
+          { "ad": "Ruj", "oran": 0.17 },
+          { "ad": "Dudak Nemlendirici", "oran": 0.17 },
+          { "ad": "Aydınlatıcı & Highlighter", "oran": 0.17 },
+          { "ad": "Eyeliner", "oran": 0.17 },
+          { "ad": "Ten Makyajı", "oran": 0.17 },
+          { "ad": "Manikür & Pedikür", "oran": 0.17 },
+          { "ad": "BB & CC Krem", "oran": 0.17 },
+          { "ad": "El Kremi", "oran": 0.17 },
+          { "ad": "Yüz Nemlendirici", "oran": 0.17 }
+        ]
+      },
+      {
+        "baslik": "Spor & Outdoor",
+        "altlar": [
+          { "ad": "Sweatshirt (Spor)", "oran": 0.15 },
+          { "ad": "Tişört (Spor)", "oran": 0.15 },
+          { "ad": "Spor Sütyeni", "oran": 0.15 },
+          { "ad": "Tayt", "oran": 0.15 },
+          { "ad": "Eşofman", "oran": 0.15 },
+          { "ad": "Koşu Ayakkabısı", "oran": 0.15 },
+          { "ad": "Spor Çantası", "oran": 0.15 },
+          { "ad": "Spor Ekipmanları", "oran": 0.14 },
+          { "ad": "Outdoor Ayakkabı", "oran": 0.15 },
+          { "ad": "Kar Botu (Outdoor)", "oran": 0.15 },
+          { "ad": "Outdoor Ekipmanları", "oran": 0.14 },
+          { "ad": "Sporcu Besinleri", "oran": 0.14 },
+          { "ad": "Sporcu Aksesuarları", "oran": 0.15 },
+          { "ad": "Outdoor Çanta", "oran": 0.15 },
+          { "ad": "Kayak Malzemeleri", "oran": 0.15 },
+          { "ad": "Uyku Tulumu", "oran": 0.15 },
+          { "ad": "Mat", "oran": 0.14 },
+          { "ad": "Dağcılık", "oran": 0.15 },
+          { "ad": "Kadın Spor Ceket", "oran": 0.15 },
+          { "ad": "Spor Ayakkabı", "oran": 0.15 }
         ]
       }
     ]
@@ -80,25 +264,39 @@
         ]
       },
       {
-        "baslik": "Moda & Giyim",
+        "baslik": "Moda",
         "altlar": [
-          { "ad": "Genel Giyim", "oran": 0.20 },
+          { "ad": "Giyim", "oran": 0.20 },
           { "ad": "Ayakkabı", "oran": 0.20 }
         ]
       }
     ]
   },
-   {
+  {
+    "id": 3,
+    "isim": "Amazon TR",
+    "renk": "#232f3e",
+    "kargo": 35.00,
+    "kategoriler": [
+      {
+        "baslik": "Elektronik",
+        "altlar": [
+          { "ad": "Bilgisayar", "oran": 0.08 },
+          { "ad": "Telefon", "oran": 0.10 }
+        ]
+      }
+    ]
+  },
+  {
     "id": 4,
     "isim": "N11",
     "renk": "#5f33ba",
     "kargo": 42.50,
     "kategoriler": [
       {
-        "baslik": "Genel Kategoriler",
+        "baslik": "Giyim",
         "altlar": [
-          { "ad": "Giyim", "oran": 0.203 },
-           { "ad": "Elektronik", "oran": 0.08 }
+          { "ad": "Elbise", "oran": 0.20 }
         ]
       }
     ]
